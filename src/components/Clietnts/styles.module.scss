@@ -1,0 +1,138 @@
+    .content {
+        display: grid;
+        gap: 32px;
+    }
+    
+    .top {
+        margin-top: 160px;
+    }
+    
+    .part {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4.826546%;
+        /* 32/663 */
+        padding-top: 64px;
+    }
+    
+    .back {
+        background-color: #81818B1A;
+        border-radius: 30px;
+        padding: 64px 40px;
+    }
+    
+    .button {
+        height: 37px;
+        width: 133px;
+        border-radius: 12px;
+        background-color: transparent;
+        border: solid 1px white;
+    }
+    
+    .btn {
+        color: white;
+        text-transform: uppercase;
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 1.5;
+        /* 17px/11 */
+        letter-spacing: 2px;
+    }
+    
+    .title {
+        font-family: Poppins;
+        font-size: 51px;
+        font-weight: 500;
+        line-height: 1.1;
+        /* 61/51 */
+        letter-spacing: 0em;
+        color: white;
+        padding-top: 25px;
+    }
+    
+    .text {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        padding-top: 12px;
+        color: #9C9C9C;
+    }
+    
+    .button_b {
+        height: 52px;
+        width: 160px;
+        border-radius: 50px;
+        background-color: #3D96F4;
+        margin-top: 33px;
+    }
+    
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .buttonBox {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .btn_b {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.6;
+        /* 22/14 */
+        letter-spacing: 2px;
+        text-align: center;
+        color: white;
+    }
+    
+    .boxTitle {
+        display: flex;
+        gap: 16px;
+    }
+    
+    .item {
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.4;
+        /* 45/32 */
+        color: white;
+        padding-top: 33px;
+    }
+    
+    .textBack {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        /* 24/16 */
+        color: #9C9C9C;
+        padding-top: 34px;
+    }
+    
+    @media (max-width: 767.98px) {
+        .part {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 32px;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .buttonBox {
+            align-self: center;
+        }
+        .button_b {
+            margin-top: 5px;
+        }
+        .title {
+            font-size: 45px;
+        }
+    }

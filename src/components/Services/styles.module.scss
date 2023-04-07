@@ -1,0 +1,158 @@
+.content {
+    display: flex;
+    gap: 32px;
+}
+
+.top {
+    margin-top: 160px;
+}
+
+.container {
+    flex: 0 1 50%;
+    padding-top: 160px;
+}
+
+.part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.826546%;
+    /* 32/663 */
+}
+
+.social {
+    background-color: #81818B1A;
+    border-radius: 30px;
+    padding: 55px 25px;
+}
+
+.button {
+    height: 37px;
+    width: 102px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 17px/11 */
+    letter-spacing: 2px;
+}
+
+.title {
+    height: 72px;
+    font-family: Poppins;
+    font-size: 51px;
+    font-weight: 500;
+    line-height: 1.1/* 61/51 */
+    ;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: 19px;
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 27/18 */
+    letter-spacing: 0em;
+    color: #9C9C9C;
+}
+
+.button_b {
+    height: 52px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #3D96F4;
+    margin-top: 33px;
+}
+
+.btn_b {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    /* 22/14 */
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.titleItem {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: 15px;
+}
+
+.scText {
+    height: 95px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #81818B;
+    margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .top {
+        margin-top: 20px;
+    }
+    .container {
+        padding-top: 70px;
+    }
+    .button_b {
+        height: 45px;
+        width: 130px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .social {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .title {
+        font-size: 42px;
+        height: 55px;
+    }
+    .button_b {
+        height: 45px;
+        width: 130px;
+    }
+    .container {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 540.98px) {
+    .part {
+        display: grid;
+        grid-template-columns: none;
+        gap: 25px;
+    }
+    .title {
+        font-size: 35px;
+    }
+}

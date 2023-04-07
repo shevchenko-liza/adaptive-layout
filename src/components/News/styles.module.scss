@@ -1,0 +1,173 @@
+.container {
+    padding-top: 192px;
+    flex: 0 1 50%;
+}
+
+.button {
+    height: 37px;
+    width: 133px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 17px/11 */
+    letter-spacing: 2px;
+}
+
+.back {
+    background-color: #81818B1A;
+    border-radius: 30px;
+    border-radius: 24px;
+}
+
+.part {
+    display: flex;
+    gap: 3.752932%;
+    /* 48/1279 */
+    padding-top: 64px;
+}
+
+.icon {
+    border-radius: 24px 24px 0px 0px;
+}
+
+.icon img {
+    max-width: 100%;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 51px;
+    font-weight: 500;
+    line-height: 1.1;
+    /* 61/51 */
+    color: white;
+    padding-top: 25px;
+    max-width: 340px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-top: 12px;
+    color: #9C9C9C;
+}
+
+.button_b {
+    height: 52px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #3D96F4;
+    margin-top: 33px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_b {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    /* 22/14 */
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+.data {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 24/16 */
+    color: #81818BE5;
+}
+
+.inform {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4;
+    /* 27/19 */
+    color: white;
+    padding-top: 20px;
+    width: 240px;
+}
+
+.textBack {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 24/16 */
+    color: #9C9C9C;
+    padding-top: 30px;
+}
+
+.main {
+    padding: 26px 26px;
+}
+
+.link {
+    color: #3D96F4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    /* 22/14 */
+}
+
+.lk {
+    padding-top: 22px;
+}
+
+@media (max-width: 767.98px) {
+    .part {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .buttonBox {
+        align-self: center;
+    }
+    .title {
+        font-size: 45px;
+    }
+    .container {
+        padding-top: 100px;
+    }
+    .button_b {
+        height: 45px;
+        width: 130px;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .part {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

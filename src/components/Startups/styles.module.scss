@@ -1,0 +1,38 @@
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    max-width: 100%;
+}
+
+.text {
+    text-align: center;
+    padding-top: 192px;
+    padding-bottom: 24px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    /* 22/14 */
+    letter-spacing: 1px;
+}
+
+@media (max-width: 991.98px) {
+    .text {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .text {
+        padding-top: 70px;
+    }
+}
