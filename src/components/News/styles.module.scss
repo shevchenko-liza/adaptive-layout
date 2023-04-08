@@ -1,25 +1,13 @@
-.container {
-    padding-top: 192px;
-    flex: 0 1 50%;
+.top {
+    margin-top: 160px;
 }
 
-.button {
-    height: 37px;
-    width: 133px;
-    border-radius: 12px;
-    background-color: transparent;
-    border: solid 1px white;
+.icon {
+    max-width: 100%;
 }
 
-.btn {
-    color: white;
-    text-transform: uppercase;
-    font-family: Poppins;
-    font-size: 11px;
-    font-weight: 300;
-    line-height: 1.5;
-    /* 17px/11 */
-    letter-spacing: 2px;
+.main {
+    padding: 28px 30px 40px 26px;
 }
 
 .back {
@@ -39,8 +27,47 @@
     border-radius: 24px 24px 0px 0px;
 }
 
-.icon img {
-    max-width: 100%;
+.button_b {
+    height: 52px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #3D96F4;
+    margin-top: 33px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_b {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    /* 22/14 */
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    height: 37px;
+    width: 133px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.5;
+    /* 17px/11 */
+    letter-spacing: 2px;
 }
 
 .title {
@@ -68,30 +95,6 @@
     color: #9C9C9C;
 }
 
-.button_b {
-    height: 52px;
-    width: 160px;
-    border-radius: 50px;
-    background-color: #3D96F4;
-    margin-top: 33px;
-}
-
-.buttonBox {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.btn_b {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.6;
-    /* 22/14 */
-    letter-spacing: 2px;
-    text-align: center;
-    color: white;
-}
-
 .data {
     font-family: Poppins;
     font-size: 16px;
@@ -109,7 +112,7 @@
     /* 27/19 */
     color: white;
     padding-top: 20px;
-    width: 240px;
+    max-width: 240px;
 }
 
 .textBack {
@@ -119,11 +122,7 @@
     line-height: 1.5;
     /* 24/16 */
     color: #9C9C9C;
-    padding-top: 30px;
-}
-
-.main {
-    padding: 26px 26px;
+    margin-top: 30px;
 }
 
 .link {
@@ -148,9 +147,6 @@
     .buttonBox {
         align-self: center;
     }
-    .title {
-        font-size: 45px;
-    }
     .container {
         padding-top: 100px;
     }
@@ -164,10 +160,4 @@
     }
 }
 
-@media (max-width: 991.98px) {
-    .part {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-}
+@media (max-width: 991.98px) {}

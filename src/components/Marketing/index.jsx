@@ -18,19 +18,19 @@ export const Marketing = () => {
                 </div>
                 <div className={clsx(classes.main_images, classes.images_main)}>
                     <div className={classes.column}>
-                        <div className={clsx(classes.images_main_item, classes.item1)}>
+                        <div className={clsx(classes.images_main_item, classes.item)}>
                             <img src='img/icon1.png' />
                         </div>
 
-                        <div className={clsx(classes.images_main_item, classes.item2)}>
+                        <div className={clsx(classes.images_main_item, classes.item)}>
                             <img src='img/icon2.png' />
                         </div>
                     </div>
                     <div className={clsx(classes.column)}>
-                        <div className={clsx(classes.images_main_item, classes.item3)}>
+                        <div className={clsx(classes.images_main_item, classes.item)}>
                             <img src='img/icon3.png' />
                         </div>
-                        <div className={clsx(classes.images_main_item, classes.item4)}>
+                        <div className={clsx(classes.images_main_item, classes.item)}>
                             <img src='img/icon4.png' />
                         </div>
                     </div>

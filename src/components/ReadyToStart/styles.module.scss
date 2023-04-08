@@ -96,8 +96,17 @@
         width: 130px;
         height: 40px;
     }
-    .text,
     .title {
         text-align: center;
+    }
+    .text {
+        text-align: center;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .title {
+        font-size: 26px;
     }
 }

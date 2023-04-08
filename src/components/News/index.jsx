@@ -5,18 +5,21 @@ import clsx from 'clsx';
 export const News = () => {
     return (
         <div className={classes.container}>
-            <div>
-                <button className={clsx(classes.button, classes.btn)}>Blog</button>
-                <div className={classes.title}>Read our articles & news</div>
-                <div className={classes.box}>
-                    <div className={classes.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</div>
-                    <div className={classes.buttonBox}>
-                        <button className={clsx(classes.button_b, classes.btn_b)}>All Posts</button>
+            <div className={classes.content}>
+                <div className={classes.top}>
+                    <button className={clsx(classes.button, classes.btn)}>testimonials</button>
+                    <div className={classes.title}>See what our clients say</div>
+                    <div className={classes.box}>
+                        <div className={classes.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</div>
+                        <div className={classes.buttonBox}>
+                            <button className={clsx(classes.button_b, classes.btn_b)}>Get in touch</button>
+                        </div>
                     </div>
                 </div>
+
                 <div className={classes.part}>
                     <div className={classes.back}>
-                        <div className={classes.iconBox}>
+                    <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/professions.jpg" />
                         </div>
                         <div className={classes.main}>
@@ -29,7 +32,7 @@ export const News = () => {
                         </div>
                     </div>
                     <div className={classes.back}>
-                        <div className={classes.iconBox}>
+                    <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/prf2.jpg" />
                         </div>
                         <div className={classes.main}>
@@ -42,7 +45,7 @@ export const News = () => {
                         </div>
                     </div>
                     <div className={classes.back}>
-                        <div className={classes.iconBox}>
+                    <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/pr3.jpg" />
                         </div>
                         <div className={classes.main}>
