@@ -43,7 +43,6 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-
             <div className={classes.first}>
                 <div className={classes.pages}>Pages</div>
                 <div className={classes.item}>Home</div>
@@ -53,7 +52,6 @@ export const Footer = () => {
                 <div className={classes.item}>Blog</div>
                 <div className={classes.item}>Contact</div>
             </div>
-
             <div className={classes.first}>
                 <div className={classes.pages}>Utility pages</div>
                 <div className={classes.item}>Instructions</div>
@@ -63,19 +61,15 @@ export const Footer = () => {
                 <div className={classes.item}>404 Not found</div>
                 <div className={classes.item}>Password protected</div>
             </div>
-    
             <div className={classes.first}>
                 <div className={classes.top}>
-                <div className={classes.titleF}>Subscribe to our newsletter</div>
-                <div className={classes.textF} >Lorem ipsum dolor sit am consectetur adipiscing</div>
-                <div className={classes.contact}> 
-                <input className={classes.input} placeholder='Enter your email'></input>
-                <button className={clsx(classes.button, classes.btn)}>Subscribe</button>
+                    <div className={classes.titleF}>Subscribe to our newsletter</div>
+                    <div className={classes.textF} >Lorem ipsum dolor sit am consectetur adipiscing</div>
+                    <div className={classes.contact}>
+                        <input className={classes.input} placeholder='Enter your email'></input>
+                        <button className={clsx(classes.button, classes.btn)}>Subscribe</button>
+                    </div>
                 </div>
-                    
-                
-                </div>
-         
             </div>
         </div>
     );

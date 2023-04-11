@@ -96,6 +96,9 @@
         flex-direction: column;
         flex-direction: column-reverse;
     }
+    .iconBox {
+        align-self: center;
+    }
 }
 
 @media (max-width: 991.98px) {

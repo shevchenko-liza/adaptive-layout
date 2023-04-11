@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './styles.module.scss'
-import clsx from 'clsx';
 
 export const Statistics = () => {
     return (
@@ -23,10 +22,8 @@ export const Statistics = () => {
                         <div className={classes.title}>10+</div>
                         <div className={classes.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</div>
                     </div>
-                    </div>
-      
-                    <img  className={classes.icon} src="img/statistic.png"/>
-                   
+                </div>
+                <img className={classes.icon} src="img/statistic.png" />
             </div>
         </div>
     );

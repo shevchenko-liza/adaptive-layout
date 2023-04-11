@@ -16,10 +16,9 @@ export const News = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className={classes.part}>
                     <div className={classes.back}>
-                    <div className={classes.iconBox}>
+                        <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/professions.jpg" />
                         </div>
                         <div className={classes.main}>
@@ -32,7 +31,7 @@ export const News = () => {
                         </div>
                     </div>
                     <div className={classes.back}>
-                    <div className={classes.iconBox}>
+                        <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/prf2.jpg" />
                         </div>
                         <div className={classes.main}>
@@ -45,7 +44,7 @@ export const News = () => {
                         </div>
                     </div>
                     <div className={classes.back}>
-                    <div className={classes.iconBox}>
+                        <div className={classes.iconBox}>
                             <img className={classes.icon} src="img/pr3.jpg" />
                         </div>
                         <div className={classes.main}>

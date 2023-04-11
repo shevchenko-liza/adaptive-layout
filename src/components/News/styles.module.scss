@@ -112,7 +112,6 @@
     /* 27/19 */
     color: white;
     padding-top: 20px;
-    max-width: 240px;
 }
 
 .textBack {
@@ -157,6 +156,26 @@
     .box {
         display: flex;
         flex-direction: column;
+    }
+    .iconBox {
+        display: flex;
+        justify-content: center;
+    }
+    .data {
+        display: flex;
+        justify-content: center;
+    }
+    .textBack {}
+    .link {
+        display: flex;
+        justify-content: center;
+    }
+    .inform {
+        display: flex;
+        justify-content: center;
+    }
+    .top {
+        margin-top: 30px;
     }
 }
 
